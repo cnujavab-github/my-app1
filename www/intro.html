@@ -1,0 +1,387 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/themes/test1.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="js/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel="stylesheet" href="cnuha.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>  
+	 <style>
+	  .head {
+	        border-left-style: solid;  
+            border-left-color: red;
+            border-left-width: 10px; 
+	        font-family:微軟正黑體 !important;}
+	  button {font-family:微軟正黑體 !important;}
+	  .h3 {font-family:微軟正黑體 !important;}
+	  body{font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;} 
+	</style>
+  </head>
+  <body>  
+	 <div data-role="page" id="home" data-theme="a">
+      <div data-role="header" data-position="fixed" data-theme="a"> 
+		<a href="index.html "  data-ajax="false" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">回首頁</a>	  
+ 	    <h1>基本介紹</h1>
+      </div>		
+	
+      <div data-role="content" data-theme="a">
+	  <p>
+	  系統分析<br>
+	 一、ICD(International Classification of Disease)：世界衛生組織為統合全世界疾病及死亡統計，編撰有關疾病、傷害等國際分類標準。<br>
+二、ICD-10-CM(International Statistical Classification of Disease and Related Health Problems,Tenth Revision,Clinical Modification)<br>
+<OL>
+<li>美國國家衛生統計中心(NCHS)衛生政策研究中心(CHPS)領導編撰，美國病歷管理協會(AHIMA)完成測試。
+<li>美國於2015年10月01日導入。
+<li>台灣於2016年01月01日導入。
+<li>適用於門住診疾病診斷分類。
+<li>格式為第1個字元為英文字母，接著為2位數字接1個小數點，小數點後接1位或2位數字，共3~7位碼。
+</Ol>
+三、ICD-10-PCS(Procedure Coding System)<br>
+<OL>
+<li>ICD-10-PCS是美國CMS(Centers for Medicare and Medicaid Services)1992年至1995年委託3M資訊公司依據ICD-9-CM第三冊發展處置分類系統。<br>
+<li>ICD-10-PCS是美國特有臨床修訂版。<br>
+<li>每一位碼代表一個分類軸，每個分類軸可有34個數值，數字0到9及字母(英文字母A到Z，除了I和O，因易和數字1、0混淆)。<br>
+<li>一個處置碼有7位碼，由字母或數字組成，稱為數值(values)。<br>
+</OL>
+<p>
+分類原則<br>
+一、精簡原則：以有限的分類項目，涵蓋所有罹病狀態。<br>
+二、實用原則：所分類別項目，有助於行政及醫療統計。<br>
+三、構成原則：構成一個疾病類別，發生率必達相當數量。<br>
+四、周全原則：每個疾病分類，都很周全適當。<br>
+五、殘餘原則：即使分類再完整，仍有少數無法歸類者，故有設定「其他」或「無法分類」的類目。<br>
+
+
+  <div data-role="collapsible-set">	  
+		 <div data-role="collapsible">				
+<h3>	感染症及寄生蟲疾病分類規則 (A00～B99)</h3><p>			
+<span class='exclcss'>&nbsp; 	A00-A09	 &nbsp;</span> 	Intestinal infection diseases 腸道感染(性)疾病	<P>
+<span class='exclcss'>&nbsp; 	A15-A19	 &nbsp;</span> 	Tuberculosis 結核病	<P>
+<span class='exclcss'>&nbsp; 	A20-A28	 &nbsp;</span> 	Certain zoonotic bacterial diseases 動物媒介的細菌性疾病	<P>
+<span class='exclcss'>&nbsp; 	A30-A49	 &nbsp;</span> 	Other bacterial diseases 其他細菌性疾病	<P>
+<span class='exclcss'>&nbsp; 	A50-A64	 &nbsp;</span> 	Infection with a predominantly sexual mode of transmission 主要經性傳播模式的感染(症)	<P>
+<span class='exclcss'>&nbsp; 	A65-A69	 &nbsp;</span> 	Other spirochetal disease 其他螺旋體(性)疾病	<P>
+<span class='exclcss'>&nbsp; 	A70-A74	 &nbsp;</span> 	Other diseases caused by chlamydiae 其他披衣菌所致的疾病	<P>
+<span class='exclcss'>&nbsp; 	A75-A79	 &nbsp;</span> 	Rickettsioses 立克次體(病)症	<P>
+<span class='exclcss'>&nbsp; 	A80-A89	 &nbsp;</span> 	Viral and prion infection of the central nervous system 中樞神經系統疾病和朊毒體感染(症)	<P>
+<span class='exclcss'>&nbsp; 	A90-A99	 &nbsp;</span> 	Arthropod-borne viral fevers and viral hemorrhagic fevers 節肢動物媒介的病毒(性)熱和病毒性出血熱	<P>
+<span class='exclcss'>&nbsp; 	B00-B09	 &nbsp;</span> 	Viral infection characterized by skin and mucous membrane lesions 皮膚和黏膜病灶為特徵的病毒性感染(症)	<P>
+<span class='exclcss'>&nbsp; 	B10	 &nbsp;</span> 	Other human herpes viruses 其他人類 疹病毒感染(症)	<P>
+<span class='exclcss'>&nbsp; 	B15-B19	 &nbsp;</span> 	Viral hepatitis 病毒性肝炎	<P>
+<span class='exclcss'>&nbsp; 	B20	 &nbsp;</span> 	Human immunodeficiency virus [HIV] disease 人類免疫缺乏病毒[HIV]疾病(所致)的感染症及寄生蟲疾病	<P>
+<span class='exclcss'>&nbsp; 	B25-B34	 &nbsp;</span> 	Other viral diseases 其他病毒性疾病	<P>
+<span class='exclcss'>&nbsp; 	B35-B49	 &nbsp;</span> 	Mycoses 黴菌(病)症	<P>
+<span class='exclcss'>&nbsp; 	B50-B64	 &nbsp;</span> 	Protozoal diseases 原蟲病(症) [原生動物性疾病]	<P>
+<span class='exclcss'>&nbsp; 	B65-B83	 &nbsp;</span> 	Helminthiases 蠕蟲(病)症	<P>
+<span class='exclcss'>&nbsp; 	B85-B89	 &nbsp;</span> 	Pediculosis,acariasis and other infestations 蝨(病)症、恙蟲 [?](病)症和其他侵染(症)	<P>
+<span class='exclcss'>&nbsp; 	B90-B94	 &nbsp;</span> 	Sequelae of infectious and parasitic diseases 感染性和寄生蟲疾病後遺症	<P>
+<span class='exclcss'>&nbsp; 	B95-B97	 &nbsp;</span> 	Bacterial and viral infectious agents 細菌性和病毒性感染原(因子)	<P>
+<span class='exclcss'>&nbsp; 	B99	 &nbsp;</span> 	Other infectious diseases 其他感染(性)疾病	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	腫瘤及腫瘤組織型態分類規則 (C00～D49)</h3><p>			
+<span class='exclcss'>&nbsp; 	C00-C14	 &nbsp;</span> 	Malignant neoplasms of lip,oral cavity and pharynx 唇、口腔及咽部之惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C15-C26	 &nbsp;</span> 	Malignant neoplasms of digestive organs 消化器之惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C30-C39	 &nbsp;</span> 	Malignant neoplasms of respiratory and intrathoracic organs 呼吸道及胸內器官之惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C40-C41	 &nbsp;</span> 	Malignant neoplasms of bone and articular cartilage 骨骼及關節軟骨之惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C43-C44	 &nbsp;</span> 	Melanoma and other malignant neoplasms of skin 黑色素瘤及皮膚之其他惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C45-C49	 &nbsp;</span> 	Malignant neoplasms of mesothelial and soft tissue 間皮及軟組織之惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C50	 &nbsp;</span> 	Malignant neoplasms of breast 乳房之惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C51-C58	 &nbsp;</span> 	Malignant neoplasms of female genital organs 女性生殖器官之惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C60-C63	 &nbsp;</span> 	Malignant neoplasms of male genital organs 男性生殖器官之惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C64-C68	 &nbsp;</span> 	Malignant neoplasms of urinary tract 泌尿道之惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C69-C72	 &nbsp;</span> 	Malignant neoplasms of eye,brain and other parts of central nervous system 眼、腦及其他中樞神經系統部位之惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C73-C75	 &nbsp;</span> 	Malignant neoplasms of thyroid and other endocrine glands 甲狀腺及其他內分泌腺之惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C7A	 &nbsp;</span> 	Malignant neuroendocrine tumors 惡性神經內分泌腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C7B	 &nbsp;</span> 	Secondary neuroendocrine tumors 續發性神經內分泌腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C76-C80	 &nbsp;</span> 	Malignant neoplasms of ill-defined,secondary and unspecified sites 界定不明、續發性及未明示部位之惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	C81-C96	 &nbsp;</span> 	Malignant neoplasms of lymphoid and hematopoietic and related tissue 淋巴、造血及相關組織之惡性腫瘤	<P>
+<span class='exclcss'>&nbsp; 	D00-D09	 &nbsp;</span> 	In situ neoplasms 原位癌	<P>
+<span class='exclcss'>&nbsp; 	D10-D36	 &nbsp;</span> 	Benign neoplasms,except benign neuroendocrine tumors 良性腫瘤，良性神經內分泌腫瘤除外	<P>
+<span class='exclcss'>&nbsp; 	D3A	 &nbsp;</span> 	Benign neuroendocrine tumors 良性神經內分泌腫瘤	<P>
+<span class='exclcss'>&nbsp; 	D37-D48	 &nbsp;</span> 	Malignant of uncertain behavior,polycythemia vera and myelodysplastic syndrome 性態未明之腫瘤、真性紅血球增多症及骨隨分化不良症候	<P>
+<span class='exclcss'>&nbsp; 	D49	 &nbsp;</span> 	Malignant of unspecified behavior 性態未明之腫瘤	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	內分泌、營養、代謝、免疫、血液及造血器官疾病分類規則 (D50-E89)</h3><p>			
+<span class='exclcss'>&nbsp; 	D50-D53	 &nbsp;</span> 	Nutritional anemias 營養性貧血	<P>
+<span class='exclcss'>&nbsp; 	D55-D59	 &nbsp;</span> 	Hemolytic anemias 溶血性貧血	<P>
+<span class='exclcss'>&nbsp; 	D60-D64	 &nbsp;</span> 	Aplastic and other anemias再生??性與其他貧血及其他骨髓衰竭症候群	<P>
+<span class='exclcss'>&nbsp; 	D65-D69	 &nbsp;</span> 	Coagulation defects, purpura and other hemorrhagic conditions 血液凝固缺陷、紫斑及其他出血性病況	<P>
+<span class='exclcss'>&nbsp; 	D70-D77	 &nbsp;</span> 	Other disorders of blood and blood-forming organs血液及造血器官其它疾病	<P>
+<span class='exclcss'>&nbsp; 	D78	 &nbsp;</span> 	Intraoperative and postprocedural complications of spleen脾臟術中及術後併發症併發症	<P>
+<span class='exclcss'>&nbsp; 	D80-D89	 &nbsp;</span> 	Certain disorders involving the immune mechanism侵及免疫轉機的特定疾患	<P>
+<span class='exclcss'>&nbsp; 	E00-E07	 &nbsp;</span> 	Disorders of thyroid gland甲?腺疾患	<P>
+<span class='exclcss'>&nbsp; 	E08-E13	 &nbsp;</span> 	Diabetes mellitus??病	<P>
+<span class='exclcss'>&nbsp; 	E15-E16	 &nbsp;</span> 	Other disorders of glucose regulation and pancreatic internal secretion血?調節和胰內分?其他疾患	<P>
+<span class='exclcss'>&nbsp; 	E20-E35	 &nbsp;</span> 	Disorders of other endocrine glands其他內分?腺疾患	<P>
+<span class='exclcss'>&nbsp; 	E36	 &nbsp;</span> 	Intraoperative complications of endocrine system手術中的內分泌系統併發症	<P>
+<span class='exclcss'>&nbsp; 	E40-E46	 &nbsp;</span> 	Malnutrition營養??	<P>
+<span class='exclcss'>&nbsp; 	E50-E64	 &nbsp;</span> 	Other nutritional deficiencies其他營養缺乏症	<P>
+<span class='exclcss'>&nbsp; 	E65-E68	 &nbsp;</span> 	Overweight, obesity and other hyperalimentation體重過重、肥胖和其他營養過剩	<P>
+<span class='exclcss'>&nbsp; 	E70-E88	 &nbsp;</span> 	Metabolic disorders代謝性疾患	<P>
+<span class='exclcss'>&nbsp; 	E89	 &nbsp;</span> 	Disorders of endocrine and metabolic complications and disorders, not elsewhere classified 處置後的內分泌及新陳代謝併發症或疾患精神與行為疾患分類規則 (F01-F99)	<P>
+<span class='exclcss'>&nbsp; 	F01-F09	 &nbsp;</span> 	Mental disorders due to know physiological conditions已知的生理狀況導致之精神疾患	<P>
+<span class='exclcss'>&nbsp; 	F10-F19	 &nbsp;</span> 	Mental and behavioral disorders due to psychoactive substance use??作用物質所致之??及行為疾患	<P>
+<span class='exclcss'>&nbsp; 	F20-F29	 &nbsp;</span> 	Schizophrenia, schizotypal and delusional disorders思覺失調症、準思覺失調症及妄想性疾患	<P>
+<span class='exclcss'>&nbsp; 	F30-F39	 &nbsp;</span> 	Mood [affective] disorders情感性疾患	<P>
+<span class='exclcss'>&nbsp; 	F40-F48	 &nbsp;</span> 	Neurotic, stress-related and somatoform disorders??官能性、壓?有關性和擬身體疾患	<P>
+<span class='exclcss'>&nbsp; 	F50-F59	 &nbsp;</span> 	Behavioral syndromes associated with physiological disturbances and physical factors 與生?障礙及身體因素相關的?為症候群	<P>
+<span class='exclcss'>&nbsp; 	F60-F69	 &nbsp;</span> 	Disorders of adult personality and behavior成人人格和?為疾患	<P>
+<span class='exclcss'>&nbsp; 	F70-F79	 &nbsp;</span> 	Intellectual disabilities智能不足	<P>
+<span class='exclcss'>&nbsp; 	F80-F89	 &nbsp;</span> 	Pervasive and specific developmental disorders廣泛性及特定發展疾患	<P>
+<span class='exclcss'>&nbsp; 	F90-F98	 &nbsp;</span> 	Behavioral and emotional disorders with onset usually occurring in childhood and adolescence特發於兒童期和青少?期的?為及情緒性疾患	<P>
+<span class='exclcss'>&nbsp; 	F99	 &nbsp;</span> 	Unspecified mental disorder未明示的精神疾患	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	神經系統疾病分類規則 (G00-G99)</h3><p>			
+<span class='exclcss'>&nbsp; 	G00-G09	 &nbsp;</span> 	Inflammatory diseases of the central nervous system中樞?經系統發炎性疾病	<P>
+<span class='exclcss'>&nbsp; 	G10-G14	 &nbsp;</span> 	Systemic atrophies primarily affecting the central nervous system主要影響中樞?經系統之全身性萎縮症	<P>
+<span class='exclcss'>&nbsp; 	G20-G26	 &nbsp;</span> 	Extrapyramidal and movement disorders錐體外及動作(或運動)疾病	<P>
+<span class='exclcss'>&nbsp; 	G30-G32	 &nbsp;</span> 	Other degenerative diseases of the nervous system其他神經系統退化性疾病	<P>
+<span class='exclcss'>&nbsp; 	G35-G37	 &nbsp;</span> 	Demyelinating diseases of the central nervous system中樞?經系統脫髓鞘疾病	<P>
+<span class='exclcss'>&nbsp; 	G40-G47	 &nbsp;</span> 	Episodic and paroxysmal disorders發作及陣發性疾病	<P>
+<span class='exclcss'>&nbsp; 	G50-G59	 &nbsp;</span> 	Nerve, nerve root and plexus disorders?經、?經根及?經叢疾病	<P>
+<span class='exclcss'>&nbsp; 	G60-G65	 &nbsp;</span> 	Polyneuropathies and other disorders of the peripheral nervous system多發性神經病變及其他周邊神經系統疾病	<P>
+<span class='exclcss'>&nbsp; 	G70-G73	 &nbsp;</span> 	Diseases of myoneural junction and muscle肌神經交界與肌肉疾病	<P>
+<span class='exclcss'>&nbsp; 	G80-G83	 &nbsp;</span> 	Cerebral palsy and other paralytic syndromes腦麻痺和其他麻痺性症侯群	<P>
+<span class='exclcss'>&nbsp; 	G89-G99	 &nbsp;</span> 	Other disorders of the nervous system其他神經系統疾病	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	感覺器官疾病分類規則 (H00-95)</h3><p>			
+<span class='exclcss'>&nbsp; 	H00-H05	 &nbsp;</span> 	Disorders of eyelid, lacrimal system and orbit眼瞼、?腺系統與眼眶疾病	<P>
+<span class='exclcss'>&nbsp; 	H10-H11	 &nbsp;</span> 	Disorders of conjunctiva結膜疾病	<P>
+<span class='exclcss'>&nbsp; 	H15-H22	 &nbsp;</span> 	Disorders of sclera, cornea, iris and ciliary body鞏膜、角膜、虹膜及睫?體疾患	<P>
+<span class='exclcss'>&nbsp; 	H25-H28	 &nbsp;</span> 	Disorders of lens水晶體疾病	<P>
+<span class='exclcss'>&nbsp; 	H30-H36	 &nbsp;</span> 	Disorders of choroid and retina脈絡膜與視網膜疾病	<P>
+<span class='exclcss'>&nbsp; 	H40-H42	 &nbsp;</span> 	Glaucoma青光眼	<P>
+<span class='exclcss'>&nbsp; 	H43-H44	 &nbsp;</span> 	Disorders of vitreous body and globe玻璃體與眼球疾病	<P>
+<span class='exclcss'>&nbsp; 	H46-H48	 &nbsp;</span> 	Disorders of optic nerve and visual pathways視神經與視覺路徑疾患	<P>
+<span class='exclcss'>&nbsp; 	H49-H52	 &nbsp;</span> 	Disorders of ocular muscles, binocular movement, accommodation and refraction眼肌、雙眼運動、調節與曲光疾患	<P>
+<span class='exclcss'>&nbsp; 	H53-H54	 &nbsp;</span> 	Visual disturbances and blindness視力障礙與失明	<P>
+<span class='exclcss'>&nbsp; 	H55-H57	 &nbsp;</span> 	Other disorders of eye and adnexa眼與附屬器官疾病	<P>
+<span class='exclcss'>&nbsp; 	H59	 &nbsp;</span> 	Intraoperative and postprocedural complications and disorders of eye and adnexa, not elsewhere classified眼與附屬器官術中與術後併發症與疾病，他處無法歸類	<P>
+<span class='exclcss'>&nbsp; 	H60-H62	 &nbsp;</span> 	Diseases of external ear外耳疾病	<P>
+<span class='exclcss'>&nbsp; 	H65-H75	 &nbsp;</span> 	Diseases of middle ear and mastoid中耳及乳突擊疾病	<P>
+<span class='exclcss'>&nbsp; 	H80-H83	 &nbsp;</span> 	Diseases of inner ear內耳疾病	<P>
+<span class='exclcss'>&nbsp; 	H90-H95	 &nbsp;</span> 	Other disorders of ear耳其他疾病	<P>
+<span class='exclcss'>&nbsp; 	H95	 &nbsp;</span> 	Intraoperative and postprocedural complications and disorders of ear and mastoid process, not elsewhere classified耳與乳突疾病的手術中與手術後併發症	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	循環系統疾病分類規則 (I00-I99)</h3><p>			
+<span class='exclcss'>&nbsp; 	I00-I02	 &nbsp;</span> 	Acute rheumatic fever急性風濕熱	<P>
+<span class='exclcss'>&nbsp; 	I05-I09	 &nbsp;</span> 	Chronic rheumatic heart diseases慢性風濕性心臟病	<P>
+<span class='exclcss'>&nbsp; 	I10-I15	 &nbsp;</span> 	Hypertensive diseases高血壓性疾病	<P>
+<span class='exclcss'>&nbsp; 	I20-I25	 &nbsp;</span> 	Ischemic heart diseases缺血性心臟病	<P>
+<span class='exclcss'>&nbsp; 	I26-I28	 &nbsp;</span> 	Pulmonary heart disease and diseases of pulmonary circulation肺因性心臟病及肺循環疾病	<P>
+<span class='exclcss'>&nbsp; 	I30-I52	 &nbsp;</span> 	Other forms of heart disease其他?型心臟疾病	<P>
+<span class='exclcss'>&nbsp; 	I60-I69	 &nbsp;</span> 	Cerebrovascular diseases腦血管疾病	<P>
+<span class='exclcss'>&nbsp; 	I70-I79	 &nbsp;</span> 	Diseases of arteries, arterioles and capillaries動脈、小動脈及微血管疾病	<P>
+<span class='exclcss'>&nbsp; 	I80-I89	 &nbsp;</span> 	Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified靜脈、?巴管及?巴結疾病，他處未歸?者	<P>
+<span class='exclcss'>&nbsp; 	I95-I99	 &nbsp;</span> 	Other and unspecified disorders of the circulatory system其他及未明示之循環系統疾患	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	呼吸系統疾病分類規則 (J00-J99)</h3><p>			
+<span class='exclcss'>&nbsp; 	J00-J06	 &nbsp;</span> 	Acute upper respiratory infections急性上呼吸道感染	<P>
+<span class='exclcss'>&nbsp; 	J09-J18	 &nbsp;</span> 	Influenza and pneumonia??性感冒及肺炎	<P>
+<span class='exclcss'>&nbsp; 	J20-J22	 &nbsp;</span> 	Other acute lower respiratory infections其他急性下呼吸道感染	<P>
+<span class='exclcss'>&nbsp; 	J30-J39	 &nbsp;</span> 	Other diseases of upper respiratory tract上呼吸道其他疾病	<P>
+<span class='exclcss'>&nbsp; 	J40-J47	 &nbsp;</span> 	Chronic lower respiratory diseases慢性下呼吸道疾病	<P>
+<span class='exclcss'>&nbsp; 	J60-J70	 &nbsp;</span> 	Lung diseases due to external agents外因所致的肺疾病	<P>
+<span class='exclcss'>&nbsp; 	J80-J84	 &nbsp;</span> 	Other respiratory diseases principally affecting the interstitium主要影響間質之其他呼吸道疾病	<P>
+<span class='exclcss'>&nbsp; 	J85-J86	 &nbsp;</span> 	Suppurative and necrotic conditions of lower respiratory tract下呼吸道之化膿性及壞死性病況	<P>
+<span class='exclcss'>&nbsp; 	J90-J94	 &nbsp;</span> 	Other diseases of the pleura胸肋膜其他疾病	<P>
+<span class='exclcss'>&nbsp; 	J95	 &nbsp;</span> 	Intraoperative and postprocedural complications and disorders of respiratory system, not elsewhere classified手術中或醫療處置後呼吸道系統之併發症及疾患，他處未歸類	<P>
+<span class='exclcss'>&nbsp; 	J96-J99	 &nbsp;</span> 	Other diseases of the respiratory system呼吸系統其他疾病	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	消化系統疾病分類規則 (K00-K94)</h3><p>			
+<span class='exclcss'>&nbsp; 	K00-K14	 &nbsp;</span> 	Diseases of oral cavity and salivary glands口腔及唾液腺之疾病	<P>
+<span class='exclcss'>&nbsp; 	K20-K31	 &nbsp;</span> 	Diseases of esophagus, stomach and duodenum食道、胃和十二指腸之疾病	<P>
+<span class='exclcss'>&nbsp; 	K35-K38	 &nbsp;</span> 	Diseases of appendix闌尾疾病	<P>
+<span class='exclcss'>&nbsp; 	K40-K46	 &nbsp;</span> 	Hernia疝氣	<P>
+<span class='exclcss'>&nbsp; 	K50-K52	 &nbsp;</span> 	Noninfective enteritis and colitis非感染性腸炎及結腸炎	<P>
+<span class='exclcss'>&nbsp; 	K55-K64	 &nbsp;</span> 	Other diseases of intestines腸道其他疾病	<P>
+<span class='exclcss'>&nbsp; 	K65-K68	 &nbsp;</span> 	Diseases of peritoneum and retroperitoneum腹膜及後腹腔疾病	<P>
+<span class='exclcss'>&nbsp; 	K70-K77	 &nbsp;</span> 	Diseases of liver肝臟疾病	<P>
+<span class='exclcss'>&nbsp; 	K80-K87	 &nbsp;</span> 	Disorders of gallbladder, biliary tract and pancreas膽囊、膽道及胰臟之疾患	<P>
+<span class='exclcss'>&nbsp; 	K90-K95	 &nbsp;</span> 	Other diseases of the digestive system消化系統之其他疾病	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	泌尿生殖系統疾病分類規則 (N00-N99)</h3><p>			
+<span class='exclcss'>&nbsp; 	N00-N08	 &nbsp;</span> 	Glomerular disease腎絲球疾病	<P>
+<span class='exclcss'>&nbsp; 	N10-N16	 &nbsp;</span> 	Renal tubulo-interstitial disease腎小管-間質疾病	<P>
+<span class='exclcss'>&nbsp; 	N17-N19	 &nbsp;</span> 	Acute kidney failure and chronic kidney disease急性腎衰竭和慢性腎臟疾病	<P>
+<span class='exclcss'>&nbsp; 	N20-N23	 &nbsp;</span> 	Urolithiasis泌尿道結石	<P>
+<span class='exclcss'>&nbsp; 	N25-N29	 &nbsp;</span> 	Other disorders of kidney and ureterOther disorders of kidney and ureter腎和輸尿管其他疾病	<P>
+<span class='exclcss'>&nbsp; 	N30-N39	 &nbsp;</span> 	Other disease of the urinary system泌尿系統其他疾病	<P>
+<span class='exclcss'>&nbsp; 	N40-N53	 &nbsp;</span> 	Disease of male genital organs男性生殖器官疾病	<P>
+<span class='exclcss'>&nbsp; 	N60-N65	 &nbsp;</span> 	Disorders of breast乳房疾患	<P>
+<span class='exclcss'>&nbsp; 	N70-N77	 &nbsp;</span> 	Inflammatory disease of female pelvic organs女性骨盆(腔)內器官(發)炎性疾病	<P>
+<span class='exclcss'>&nbsp; 	N80-N98	 &nbsp;</span> 	Noninflammatory disorders of female genital tract女性生殖道非(發)炎性疾患	<P>
+<span class='exclcss'>&nbsp; 	N99	 &nbsp;</span> 	Intraoperative and postprocedural complications and disorders of genitourinary system, not elsewhere classified生殖泌尿系統醫療處置併發術中及術後併發症及疾患，他處未歸類	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	妊娠、生產與產褥期合併症分類規則 (O00-O9A)</h3><p>			
+<span class='exclcss'>&nbsp; 	O00-O08	 &nbsp;</span> 	Pregnancy with abortive outcome伴有(合併症或併發)流產後果的妊娠	<P>
+<span class='exclcss'>&nbsp; 	O09	 &nbsp;</span> 	Supervision of high risk pregnancy高危險妊娠之監測	<P>
+<span class='exclcss'>&nbsp; 	O10-O16	 &nbsp;</span> 	Edema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium妊娠、生產和產褥期的水腫、蛋白尿及高血壓性疾患	<P>
+<span class='exclcss'>&nbsp; 	O20-O29	 &nbsp;</span> 	Other maternal disorders predominantly related to pregnancy主要與妊娠有關的其他母體疾患	<P>
+<span class='exclcss'>&nbsp; 	O30-O48	 &nbsp;</span> 	Maternal care related to the fetus and amniotic cavity and possible delivery problems胎兒和羊膜腔和可能分娩問題有關的母體照護	<P>
+<span class='exclcss'>&nbsp; 	O60-O77	 &nbsp;</span> 	Complications of labor and delivery產程和分娩的併發症	<P>
+<span class='exclcss'>&nbsp; 	O80-O82	 &nbsp;</span> 	Encounter for delivery分娩	<P>
+<span class='exclcss'>&nbsp; 	O85-O92	 &nbsp;</span> 	Complications predominantly related to the puerperium主要與產褥期有關的併發症	<P>
+<span class='exclcss'>&nbsp; 	O94-O9A	 &nbsp;</span> 	Other obstetric conditions, not elsewhere classifie其他產科情況，他處未歸類者	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	皮膚及皮下組織疾病分類規則 (L00-L99)</h3><p>			
+<span class='exclcss'>&nbsp; 	L00-L08	 &nbsp;</span> 	Infections of the skin and subcutaneous tissue皮膚及皮下組織感染	<P>
+<span class='exclcss'>&nbsp; 	L10-L14	 &nbsp;</span> 	Bullous disorders水泡性疾患	<P>
+<span class='exclcss'>&nbsp; 	L20-L30	 &nbsp;</span> 	Dermatitis and eczema皮膚炎及濕疹	<P>
+<span class='exclcss'>&nbsp; 	L40-L45	 &nbsp;</span> 	Papulosquamous disorders丘疹鱗屑性疾患	<P>
+<span class='exclcss'>&nbsp; 	L49-L54	 &nbsp;</span> 	Urticaria and erythema蕁麻疹及紅斑	<P>
+<span class='exclcss'>&nbsp; 	L55-L59	 &nbsp;</span> 	Radiation-related disorders of the skin and subcutaneous tissue與輻射有關的皮膚和皮下組織及換	<P>
+<span class='exclcss'>&nbsp; 	L60-L75	 &nbsp;</span> 	Disorders of skin appendages皮膚附屬物之疾患	<P>
+<span class='exclcss'>&nbsp; 	L76	 &nbsp;</span> 	Intraoperative and postprocedural complications of skin and subcutaneous tissue手術中和處置後皮膚及皮下組織併發症	<P>
+<span class='exclcss'>&nbsp; 	L80-L99	 &nbsp;</span> 	Other disorders of the skin and subcutaneous tissue皮膚及皮下組織之其他疾患	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	骨骼肌肉及結締組織疾病分類規則 (M00-M99)</h3><p>			
+<span class='exclcss'>&nbsp; 	M00-M25	 &nbsp;</span> 	Arthropathies關節病變	<P>
+<span class='exclcss'>&nbsp; 	M00-M02	 &nbsp;</span> 	Infectious arthropathies感染性關節病變	<P>
+<span class='exclcss'>&nbsp; 	M05-M14	 &nbsp;</span> 	Inflammatory polyarthropathies(發)炎性多關節病變	<P>
+<span class='exclcss'>&nbsp; 	M15-M19	 &nbsp;</span> 	Osteoarthritis關節(病)症	<P>
+<span class='exclcss'>&nbsp; 	M20-M25	 &nbsp;</span> 	Other joint disorders其他關節疾病	<P>
+<span class='exclcss'>&nbsp; 	M26-M27	 &nbsp;</span> 	Dentofacial anomalies [including malocclusion] and other disorders of jaw齒(顏)面異常(畸形)(含咬合不正)及頜(顎)疾患	<P>
+<span class='exclcss'>&nbsp; 	M30-M36	 &nbsp;</span> 	Systemic connective tissue disorders全身性結締組織疾患	<P>
+<span class='exclcss'>&nbsp; 	M40-M54	 &nbsp;</span> 	Dorsopathies背(部)病變	<P>
+<span class='exclcss'>&nbsp; 	M40-M43	 &nbsp;</span> 	Deforming dorsopathies變形性背(部)病變	<P>
+<span class='exclcss'>&nbsp; 	M45-M49	 &nbsp;</span> 	Spondylopathies脊椎病變	<P>
+<span class='exclcss'>&nbsp; 	M50-M54	 &nbsp;</span> 	Other dorsopathies其他背(部)病變	<P>
+<span class='exclcss'>&nbsp; 	M60-M79	 &nbsp;</span> 	Soft tissue disorders軟組織疾患	<P>
+<span class='exclcss'>&nbsp; 	M60-M63	 &nbsp;</span> 	Disorders of muscles肌肉疾患	<P>
+<span class='exclcss'>&nbsp; 	M65-M67	 &nbsp;</span> 	Disorders of synovium and tendon滑(液)膜及肌腱疾患	<P>
+<span class='exclcss'>&nbsp; 	M70-M79	 &nbsp;</span> 	Other soft tissue disorders其他軟組織疾患	<P>
+<span class='exclcss'>&nbsp; 	M80-M94	 &nbsp;</span> 	Osteopathies and chondropathies骨病變與軟骨病變	<P>
+<span class='exclcss'>&nbsp; 	M80-M85	 &nbsp;</span> 	Disorders of bone density and structure骨密度與構造疾患	<P>
+<span class='exclcss'>&nbsp; 	M86-M90	 &nbsp;</span> 	Other osteopathies其他骨病變	<P>
+<span class='exclcss'>&nbsp; 	M91-M94	 &nbsp;</span> 	Chondropathies軟骨病變	<P>
+<span class='exclcss'>&nbsp; 	M95-M99	 &nbsp;</span> 	Other disorders of the musculoskeletal system and connective tissue肌肉骨骼系統與結締組織其他疾患	<P>
+<span class='exclcss'>&nbsp; 	M95	 &nbsp;</span> 	Other disorders of the musculoskeletal system and connective tissue肌肉骨骼系統及結締組織其他後天性變形	<P>
+<span class='exclcss'>&nbsp; 	M96	 &nbsp;</span> 	Intraoperative and postprocedural complications and disorders of musculoskeletal system, not elsewhere classified術中及術後併發症及肌肉骨骼系統疾患，他處為分類	<P>
+<span class='exclcss'>&nbsp; 	M99	 &nbsp;</span> 	Biomechanical lesions,not elsewhere classified生物力學式損傷，他處為分類	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	先天畸形分類規則 (Q00-Q99)</h3><p>			
+<span class='exclcss'>&nbsp; 	Q00-Q07	 &nbsp;</span> 	Congenital malformations of the nervous system神經系統先天性畸形	<P>
+<span class='exclcss'>&nbsp; 	Q10-Q18	 &nbsp;</span> 	Congenital malformations of the eye,ear,face and neck眼、耳、顏面及頸的先天性畸形	<P>
+<span class='exclcss'>&nbsp; 	Q20-Q28	 &nbsp;</span> 	Congenital malformations of the circulatory system循環系統先天性畸形	<P>
+<span class='exclcss'>&nbsp; 	Q30-Q34	 &nbsp;</span> 	Congenital malformations of the respiratory system呼吸系統先天性畸形	<P>
+<span class='exclcss'>&nbsp; 	Q35-Q37	 &nbsp;</span> 	Cleft lip and cleft palate唇裂或顎裂	<P>
+<span class='exclcss'>&nbsp; 	Q38-Q45	 &nbsp;</span> 	Other congenital malformations of the digestive system消化系統其他先天性畸形	<P>
+<span class='exclcss'>&nbsp; 	Q50-Q56	 &nbsp;</span> 	Congenital malformations of genital organs生殖器官先天性畸形	<P>
+<span class='exclcss'>&nbsp; 	Q60-Q64	 &nbsp;</span> 	Congenital malformations of the urinary system泌尿系統先天性畸形	<P>
+<span class='exclcss'>&nbsp; 	Q65-Q79	 &nbsp;</span> 	Congenital malformations and deformations of the musculoskeletal system骨骼肌肉系統先天性畸形及變形	<P>
+<span class='exclcss'>&nbsp; 	Q80-Q89	 &nbsp;</span> 	Other congenital malformations其他先天性畸形	<P>
+<span class='exclcss'>&nbsp; 	Q90-Q99	 &nbsp;</span> 	Chromosomal abnormalities , not elsewhere classified染色體異常，他處未歸類者	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	周產期病況之疾病分類規則 (P00-P99)</h3><p>			
+<span class='exclcss'>&nbsp; 	Z38 Liv	 &nbsp;</span> 	eborn infants according to place of birth and type of delivery按生產場所劃分之活產嬰	<P>
+<span class='exclcss'>&nbsp; 	P00-P04	 &nbsp;</span> 	Newborn affected by maternal factors and by complications of regnancy,labor,and delivery新生兒受母體因素及妊娠、產程及分娩併發症之影響	<P>
+<span class='exclcss'>&nbsp; 	P05-P08	 &nbsp;</span> 	Disorders of newborn related to length of gestation and fetal growth與妊娠時間長短及胎兒生長有關之疾患	<P>
+<span class='exclcss'>&nbsp; 	P09	 &nbsp;</span> 	Abnormal findings on neonatal screening新生兒篩選之異常發現	<P>
+<span class='exclcss'>&nbsp; 	P10-P15	 &nbsp;</span> 	Birth trauma產傷	<P>
+<span class='exclcss'>&nbsp; 	P19-P29	 &nbsp;</span> 	Respiratory and cardiovascular disorders specific to the perinatal period特發於周產期之呼吸和心臟血管疾患	<P>
+<span class='exclcss'>&nbsp; 	P35-P39	 &nbsp;</span> 	Infections specific to the perinatal period特發於周產期之感染	<P>
+<span class='exclcss'>&nbsp; 	P50-P61	 &nbsp;</span> 	Hemorrhagic and hematological disorders of newborn新生兒出血性及血液學疾患	<P>
+<span class='exclcss'>&nbsp; 	P70-P74	 &nbsp;</span> 	Transitory endocrine and metabolic disorders specific to newborn特發於新生兒之短暫性內分泌及代謝疾患	<P>
+<span class='exclcss'>&nbsp; 	P76-P78	 &nbsp;</span> 	Digestive system disorders of newborn新生兒之消化系統疾患	<P>
+<span class='exclcss'>&nbsp; 	P80-P83	 &nbsp;</span> 	Conditions involving the integument and temperature regulation of newborn涉及新生兒體表及體溫調節之情況	<P>
+<span class='exclcss'>&nbsp; 	P84	 &nbsp;</span> 	Other problems with newborn新生兒其他問題	<P>
+<span class='exclcss'>&nbsp; 	P90-P96	 &nbsp;</span> 	Other disorders originating in the perinatal period起源於周產期之其他疾患	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	症狀、徵候、臨床和實驗室檢查結果異常，他處無法歸類之分類規則(R00-R99)</h3><p>			
+<span class='exclcss'>&nbsp; 	R00-R09	 &nbsp;</span> 	Symptoms and signs involving the circulatory and respiratory systems影響循環及呼吸系統之症狀與徵候	<P>
+<span class='exclcss'>&nbsp; 	R10-R19	 &nbsp;</span> 	Symptoms and signs involving the digestive system and abdomen影響消化系統及腹部之症狀與徵候	<P>
+<span class='exclcss'>&nbsp; 	R20-R23	 &nbsp;</span> 	Symptoms and signs involving the skin and subcutaneous tissue影響皮膚及皮下組織之症狀與徵候	<P>
+<span class='exclcss'>&nbsp; 	R25-R29	 &nbsp;</span> 	Symptoms and signs involving the nervous and musculoskeleted systems影響神經及肌肉骨骼系統之症狀與徵候	<P>
+<span class='exclcss'>&nbsp; 	R30-R39	 &nbsp;</span> 	Symptoms and signs involving the urinary systems影響泌尿系統之症狀與徵候	<P>
+<span class='exclcss'>&nbsp; 	R40-R46	 &nbsp;</span> 	Symptoms and signs involving cognition,perception,emotional state and behavior影響認知、感覺、情感狀態及行為之症狀與徵候	<P>
+<span class='exclcss'>&nbsp; 	R47-R49	 &nbsp;</span> 	Symptoms and signs involving speech and voice影響說話及聲音之症狀與徵候	<P>
+<span class='exclcss'>&nbsp; 	R50-R69	 &nbsp;</span> 	General symptoms and signs一般症狀與徵候	<P>
+<span class='exclcss'>&nbsp; 	R70-R79	 &nbsp;</span> 	Abnormal findings on examination of blood,without diagnosis血液檢查發現異常，無確立診斷	<P>
+<span class='exclcss'>&nbsp; 	R80-R82	 &nbsp;</span> 	Abnormal findings on examination of urine,without diagnosis尿液檢查發現異常，無確立診斷	<P>
+<span class='exclcss'>&nbsp; 	R83-R89	 &nbsp;</span> 	Abnormal findings on examination of other body fluids,substances and tissues,without diagnosis其他體液、物質及組織經檢驗發現異常，無確立診斷	<P>
+<span class='exclcss'>&nbsp; 	R90-R94	 &nbsp;</span> 	Abnormal findings on examination imaging and in function studies,without diagnosis影像及功能性檢查發現異常，無確立診斷	<P>
+<span class='exclcss'>&nbsp; 	R97	 &nbsp;</span> 	Abnormal tumor markers腫瘤標記異常	<P>
+<span class='exclcss'>&nbsp; 	R99	 &nbsp;</span> 	Ill-defined and unknown cause of mortality界定不清及不明原因的死亡	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	損傷及中毒之分類規則(S00-T88)</h3><p>			
+<span class='exclcss'>&nbsp; 	S00-S09	 &nbsp;</span> 	Injuries to the head 頭部損傷	<P>
+<span class='exclcss'>&nbsp; 	S10-S19	 &nbsp;</span> 	Injuries to the neck 頸部損傷	<P>
+<span class='exclcss'>&nbsp; 	S20-S29	 &nbsp;</span> 	Injuries to the thorax 胸腔損傷	<P>
+<span class='exclcss'>&nbsp; 	S30-S39	 &nbsp;</span> 	Injuries to the abdomen,lower back,lumbar spine, pelvis and external genitals 腹、下背、腰椎及骨盆損傷	<P>
+<span class='exclcss'>&nbsp; 	S40-S49	 &nbsp;</span> 	Injuries to the shoulder and upper arm 肩及上臂損傷	<P>
+<span class='exclcss'>&nbsp; 	S50-S59	 &nbsp;</span> 	Injuries to the elbow and forearm 肘及前臂損傷	<P>
+<span class='exclcss'>&nbsp; 	S60-S69	 &nbsp;</span> 	Injuries to the wrist, hand and fingers 腕、手部及手指損傷	<P>
+<span class='exclcss'>&nbsp; 	S70-S79	 &nbsp;</span> 	Injuries to the  hip and thigh 髖及大腿損傷	<P>
+<span class='exclcss'>&nbsp; 	S80-S89	 &nbsp;</span> 	Injuries to the knee and lower leg 膝及下肢損傷	<P>
+<span class='exclcss'>&nbsp; 	S90-S99	 &nbsp;</span> 	Injuries to the ankle and foot 踝及足損傷	<P>
+<span class='exclcss'>&nbsp; 	T07	 &nbsp;</span> 	Injuries involving multiple body regions涉及多重身體區域損傷	<P>
+<span class='exclcss'>&nbsp; 	T14	 &nbsp;</span> 	Injury of unspecified body region 未明示身體區域的損傷	<P>
+<span class='exclcss'>&nbsp; 	T15-T19	 &nbsp;</span> 	Effects of foreign body entering through natural orifice異物由孔口進入體內之影響	<P>
+<span class='exclcss'>&nbsp; 	T20-T32	 &nbsp;</span> 	Burns and corrosions 燒傷及腐蝕傷	<P>
+<span class='exclcss'>&nbsp; 	T33-T34	 &nbsp;</span> 	Frostbite 凍傷	<P>
+<span class='exclcss'>&nbsp; 	T36-T50	 &nbsp;</span> 	Poisoning by, adverse effect of and underdosing of drugs, medicaments and biological substances藥物、藥品及生物製劑的中毒、副作用及劑量不足	<P>
+<span class='exclcss'>&nbsp; 	T51-T65	 &nbsp;</span> 	Toxic effects of substances chiefly nonmedicinal as to source源於非用藥為主之物質所致之毒性反應	<P>
+<span class='exclcss'>&nbsp; 	T66-T78	 &nbsp;</span> 	Other and unspecified effects of external causes 其他外因所致之影響	<P>
+<span class='exclcss'>&nbsp; 	T79	 &nbsp;</span> 	Certain early complications of trauma某些外傷的早期併發症	<P>
+<span class='exclcss'>&nbsp; 	T80-T88	 &nbsp;</span> 	Complications of surgical and medical care, not elsewhere classified內外科醫療照護之併發症，他處未歸類	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	影響健康狀況因素及接觸健康服務之分類規則(Z00-Z99)</h3><p>			
+<span class='exclcss'>&nbsp; 	Z00-Z13	 &nbsp;</span> 	Persons encountering health services for examination and investigation因檢查與診察而接觸健康服務者	<P>
+<span class='exclcss'>&nbsp; 	Z14-Z15	 &nbsp;</span> 	Genetic carrier and genetic susceptibility to disease基因遺傳帶原者與疾病之基因遺傳易感性	<P>
+<span class='exclcss'>&nbsp; 	Z16	 &nbsp;</span> 	Infection with drug resistant microorganisms抗藥性微生物感染	<P>
+<span class='exclcss'>&nbsp; 	Z17	 &nbsp;</span> 	Estrogen receptor status雌性激素接受體狀態	<P>
+<span class='exclcss'>&nbsp; 	Z18	 &nbsp;</span> 	Retained foreign body fragments異物碎片滯留	<P>
+<span class='exclcss'>&nbsp; 	Z20-Z28	 &nbsp;</span> 	Persons with potential health hazards related to communicable disease與傳染性疾病相關而具潛在健康危害者	<P>
+<span class='exclcss'>&nbsp; 	Z30-Z39	 &nbsp;</span> 	Persons encountering health services in circumstances related to reproduction與生育(殖)相關而接觸健康服務者	<P>
+<span class='exclcss'>&nbsp; 	Z40-Z53	 &nbsp;</span> 	Persons encountering health services for specific procedures and health care因特定的處置與健康照護而接觸健康服務者	<P>
+<span class='exclcss'>&nbsp; 	Z55-Z65	 &nbsp;</span> 	Persons with potential health hazards related to socioeconomic and psychosocial circumstances與社會經濟與心理社會情況有關而具潛在健康危害者	<P>
+<span class='exclcss'>&nbsp; 	Z66	 &nbsp;</span> 	Do not resuscitate[DNR]status不施行復甦術	<P>
+<span class='exclcss'>&nbsp; 	Z67	 &nbsp;</span> 	Blood type血型	<P>
+<span class='exclcss'>&nbsp; 	Z68	 &nbsp;</span> 	Body mass index (BMI)身體質量指數	<P>
+<span class='exclcss'>&nbsp; 	Z69-Z76	 &nbsp;</span> 	Persons encountering health services in other circumstances再其他情況下接觸健康服務者	<P>
+<span class='exclcss'>&nbsp; 	Z77-Z99	 &nbsp;</span> 	Persons with potential health hazards related to family and personal history and certain conditions influencing health status 與家庭、個人(病)史及影響健康狀態的某些病況相關而具潛在健康危害者	<P>
+</p></div>				
+ <div data-role="collapsible"><h3>	外傷原因分類規則 (V00-Y99)</h3><p>			
+<span class='exclcss'>&nbsp; 	V00-V09	 &nbsp;</span> 	Pedestrian injured in transport accident行人在運輸意外事故中受傷	<P>
+<span class='exclcss'>&nbsp; 	V10-V19	 &nbsp;</span> 	Pedal cyclist injured in transport accident腳踏車騎乘者在運輸意外事故中受傷	<P>
+<span class='exclcss'>&nbsp; 	V20-V29	 &nbsp;</span> 	Motorcycle rider injured in transport accident摩托車騎乘者在運輸意外事故中受傷	<P>
+<span class='exclcss'>&nbsp; 	V30-V39	 &nbsp;</span> 	Occupant of three-wheeled motor vehicle injured in transport accident三輪機動車輛成員﹝乘客或駕駛員﹞在運輸外事故中受傷	<P>
+<span class='exclcss'>&nbsp; 	V40-V49	 &nbsp;</span> 	Car occupant injured in transport accident汽車成員﹝乘客或駕駛員﹞在運輸意外事故中受傷	<P>
+<span class='exclcss'>&nbsp; 	V50-V59	 &nbsp;</span> 	Occupant of pick-up truck or van injured in transport accident小貨(卡)車禍箱型小貨(卡)車乘員﹝乘客或駕駛員﹞在運輸意外事故中受傷	<P>
+<span class='exclcss'>&nbsp; 	V60-V69	 &nbsp;</span> 	Occupant of heavy transport vehicle injured in transport accident重型運輸車輛乘員﹝乘客或駕駛員﹞在運輸意外事故中受傷	<P>
+<span class='exclcss'>&nbsp; 	V70-V79	 &nbsp;</span> 	Bus occupant injured in transport accident巴士(公共汽車)乘員﹝乘客或駕駛員﹞在運輸意外事故中受傷	<P>
+<span class='exclcss'>&nbsp; 	V80-V89	 &nbsp;</span> 	Other land transport accidents其他陸路運輸意外事故	<P>
+<span class='exclcss'>&nbsp; 	V90-V94	 &nbsp;</span> 	Water transport accidents水路運輸意外事故	<P>
+<span class='exclcss'>&nbsp; 	V95-V97	 &nbsp;</span> 	Air and space transport accidents空中運輸意外事故	<P>
+<span class='exclcss'>&nbsp; 	V98-V99	 &nbsp;</span> 	Other and unspecified transport accidents其他和未明示之運輸意外事故	<P>
+<span class='exclcss'>&nbsp; 	W00-W19	 &nbsp;</span> 	Slipping, tripping, stumbling and falls跌(摔)落(倒)	<P>
+<span class='exclcss'>&nbsp; 	W20-W49	 &nbsp;</span> 	Exposure to inanimate mechanical forces暴露於無生命的機械力	<P>
+<span class='exclcss'>&nbsp; 	W50-W64	 &nbsp;</span> 	Exposure to animate mechanical forces暴露於有生命的機械力	<P>
+<span class='exclcss'>&nbsp; 	W65-W74	 &nbsp;</span> 	Accidental drowning and submersion意外溺死和淹沒	<P>
+<span class='exclcss'>&nbsp; 	W85-W99	 &nbsp;</span> 	Exposure to electric current, radiation and extreme ambient air temperature and pressure暴露於電流、放射線﹝輻射﹞和極端氣溫與氣壓	<P>
+<span class='exclcss'>&nbsp; 	X00-X08	 &nbsp;</span> 	Exposure to smoke, fire and flames暴露於煙(霧)、火災和火焰	<P>
+<span class='exclcss'>&nbsp; 	X10-X19	 &nbsp;</span> 	Contact with heat and hot substance接觸熱與燙之物質	<P>
+<span class='exclcss'>&nbsp; 	X30-X39	 &nbsp;</span> 	Exposure to forced of nature暴露於自然力	<P>
+<span class='exclcss'>&nbsp; 	X52,X58	 &nbsp;</span> 	Accidental exposure to other specified factors意外暴露於其他和未明示之因素	<P>
+<span class='exclcss'>&nbsp; 	X71-X83	 &nbsp;</span> 	Intentional self-harm蓄意自我傷害	<P>
+<span class='exclcss'>&nbsp; 	X92-Y08	 &nbsp;</span> 	Assault加害	<P>
+<span class='exclcss'>&nbsp; 	Y21-Y33	 &nbsp;</span> 	Event of undetermined intent意圖不明的事件	<P>
+<span class='exclcss'>&nbsp; 	Y35-Y38	 &nbsp;</span> 	Legal intervention, operations of war, military operations, and terrorism法律制裁﹝執法、依法處置﹞和戰爭行動﹝作戰﹞及恐怖攻擊	<P>
+<span class='exclcss'>&nbsp; 	Y62-Y84	 &nbsp;</span> 	Complications of medical and surgical care  內外科醫療照護的併發症	<P>
+<span class='exclcss'>&nbsp; 	Y90-Y99	 &nbsp;</span> 	Supplementary factors related to cause of morbidity classified elsewhere歸類於他處與罹病有關的補充因素	<P>
+
+		
+  </div>			
+ </div>
+  <div data-role="footer" data-position="fixed" data-theme="a">
+	    <h4>&copy;嘉藥醫管專題</h4>
+ </div>
+</div>
+	
+	
+  </body>
+</html>

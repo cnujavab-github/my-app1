@@ -1,0 +1,47 @@
+
+.td1css {
+  border-radius: 0px 0px 0px 0px;
+   background: #006633;
+    padding: 0px; 
+    width: 30px;
+    height: 10px;   
+  font-weight: bold;
+  color:white;
+  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+
+.td2css {
+ border-radius: 0px 0px 0px 0px;
+   background: #990033;
+    padding: 0px; 
+    width: 30px;
+    height: 10px;   
+  font-weight: bold;
+  color:white;
+  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+.td3css {
+  border-radius: 0px 0px 0px 0px;
+   background: #003366;
+    padding: 0px; 
+    width: 30px;
+    height: 10px;   
+  font-weight: bold;
+  color:white;
+  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+
+.td4css {
+  border-radius: 0px 0px 0px 0px;
+   background: #8A2BE2;
+    padding: 0px; 
+    width: 30px;
+    height: 10px;   
+  font-weight: bold;
+  color:white;
+  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}

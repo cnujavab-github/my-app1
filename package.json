@@ -1,1 +1,11 @@
-$ npm init
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "my app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test1"
+  },
+  "author": "",
+  "license": "ISC"
+}

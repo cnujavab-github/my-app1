@@ -1,0 +1,501 @@
+div.test {
+    white-space: nowrap; 
+    width: 25px; 
+	text-align: center;
+    overflow: hidden; 
+    border: 1px solid #008080;
+	border-collapse: separate;
+	background-color: white;
+}
+
+table.test {
+    white-space: nowrap; 
+    width: 40px; 
+	text-align: center;
+    overflow: hidden; 
+    border: 1px solid #edf3f9; ;
+	border-collapse: separate;	
+    background-color: #edf3f9; ;
+}
+
+td .test{
+  width: 40px; 
+  border: 1px solid #666;
+  background-color: #ffc;
+}
+
+div.test1 {
+    white-space: nowrap; 
+    width: 500px; 
+	text-align: left;
+	color:#006666;
+    overflow: hidden; 
+    border: 1px solid #008080;
+	clear: left;
+}
+
+
+.pseccss{
+    border-radius: 0px 5px 5px 0px;
+    background: #660066;
+	float: left;
+    width: 60px;
+    height: 25px; 
+    font-style: oblique;
+    color:white;
+  
+} 
+.pseccss1{
+    float: left;
+    padding: 3px; 
+    font-size: 13pt;	
+    color:#660066;
+	font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+} 
+
+.pbodycss {
+    border-radius: 0px 5px 5px 0px;
+    background: #006666;
+	clear: left;
+    float: left;
+    width: 108px;
+    height: 25px; 	
+    font-style: oblique;
+    color:white;
+   
+} 
+
+.pbodycss1{
+    padding: 3px; 
+	float: left;
+    font-size: 13pt;	
+    color: #006666;
+	font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+} 
+
+.popercss {
+    border-radius: 0px 5px 5px 0px;
+    background: #CC6600;
+	clear: both;
+	float: left;
+    width: 90px;
+    height: 25px; 	 
+    font-style: oblique;
+    color:white;
+    
+	
+} 
+
+.popercss1{
+    padding: 3px; 
+	float: left;
+    font-size: 13pt;	
+    color: #CC6600;
+	font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+} 
+
+.pbodypacss {
+    border-radius: 0px 5px 5px 0px;
+    background: #556B2F;
+	clear: left;
+    float: left;
+    width: 88px;
+    height: 25px; 	
+    font-style: oblique;
+    color:white;
+   
+} 
+
+.pbodypacss1{
+    padding: 3px; 
+	float: left;
+    font-size: 13pt;	
+    color: #556B2F;
+	font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+} 
+
+.pappcss {
+    border-radius: 0px 5px 5px 0px;
+    background: #800000;
+	clear: left;
+    float: left;
+    width: 88px;
+    height: 25px; 	
+    font-style: oblique;
+    color:white;
+   
+} 
+
+.pappcss1{
+    padding: 3px; 
+	float: left;
+    font-size: 13pt;	
+    color: #800000;
+	font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+} 
+.pdevcss {
+    border-radius: 0px 5px 5px 0px;
+    background: #191970;
+	clear: left;
+    float: left;
+    width: 65px;
+    height: 25px; 	
+    font-style: oblique;
+    color:white;
+   
+} 
+
+.pdevcss1{
+    padding: 3px; 
+	float: left;
+    font-size: 13pt;	
+    color: #191970;
+	font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+} 
+.pquacss {
+    border-radius: 0px 5px 5px 0px;
+    background: #B8860B;
+	clear: left;
+    float: left;
+    width: 65px;
+    height: 25px; 	
+    font-style: oblique;
+    color:white;
+   
+} 
+
+.pquacss1{
+    padding: 3px; 
+	float: left;
+    font-size: 13pt;	
+    color: #B8860B;
+	font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+} 
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: Crimson;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.ahref {
+margin-left:10px;
+
+}
+
+
+.P1{
+font-weight: bold;
+ color:660000;
+ font-family: Arial, Helvetica, sans-serif, 微軟正黑體;
+ font-size: 13pt;
+
+}
+.P2{
+margin-left:20px;
+ color:663300;
+ font-size: 13pt;
+ font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+
+.P3{
+margin-left:40px;
+ color:666600;
+ font-size: 13pt;
+ font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+
+.P4{
+margin-left:60px;
+ color:666600;
+ font-size: 13pt;
+ font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+
+.P5{
+margin-left:80px;
+ color:666600;
+ font-size: 13pt;
+ font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+
+.P6{
+margin-left:100px;
+ color:666600;
+ font-size: 13pt;
+ font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+
+.P7{
+margin-left:120px;
+ color:666600;
+ font-size: 13pt;
+ font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+
+.P8{
+margin-left:140px;
+ color:666600;
+ font-size: 13pt;
+ font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+
+.P9{
+margin-left:160px;
+ color:666600;
+ font-size: 13pt;
+ font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+
+.tableno1css {
+margin-left:0px;
+}
+
+.tableno2css {
+margin-left:30px;
+}
+
+.tableno3css {
+margin-left:60px;
+}
+
+.tableno4css {
+margin-left:80px;
+}
+
+.cat {
+    background: #003366;
+    padding: 10px; 
+    width: 650px;
+    height: 20px; 
+    font-style: oblique;
+	font-size: 18px;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;	
+    
+}
+.cat1 {
+    background: #8B4513;
+    padding: 10px; 
+    width: 690px;
+    height: 20px; 
+    font-style: oblique;
+	font-size: 18px;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;	
+    
+}
+
+.sec1 {
+    background: #708090;
+    padding: 10px; 
+    width: 650px;
+    height: 20px; 
+    font-style: oblique;
+	font-size: 18px;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;	
+    
+}
+
+.sec2 {
+    background: #F08080;
+    padding: 0px; 
+    width: 500px;
+    height: 20px; 
+	text-align:center;
+    font-style: oblique;
+	font-size: 20px;
+    color:white;
+    	
+    
+}
+
+
+.tdcss {
+ font-weight: bold;
+ font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+ 
+
+}
+
+.td1css {
+  border-radius: 0px 0px 0px 0px;
+   background: #006633;
+    padding: 0px; 
+    width: 30px;
+    height: 10px;   
+  font-weight: bold;
+  color:white;
+  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+
+.td2css {
+ border-radius: 0px 0px 0px 0px;
+   background: #990033;
+    padding: 0px; 
+    width: 30px;
+    height: 10px;   
+  font-weight: bold;
+  color:white;
+  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+.td3css {
+  border-radius: 0px 0px 0px 0px;
+   background: #003366;
+    padding: 0px; 
+    width: 30px;
+    height: 10px;   
+  font-weight: bold;
+  color:white;
+  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+
+.td4css {
+  border-radius: 0px 0px 0px 0px;
+   background: #8A2BE2;
+    padding: 0px; 
+    width: 30px;
+    height: 10px;   
+  font-weight: bold;
+  color:white;
+  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+}
+.inclcss {
+    border-radius: 0px 5px 5px 0px;
+    background: #8AC007;
+    padding: 0px; 
+    width: 70px;
+    height: 10px; 
+    font-style: oblique;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;	
+	
+} 
+
+.seccss {
+    border-radius: 0px 5px 5px 0px;
+    background: #7B68EE;
+    padding: 0px; 
+    width: 105px;
+    height: 25x; 
+    font-style: oblique;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;	
+	
+} 
+
+.sec1css {
+    border-radius: 0px 5px 5px 0px;
+    background: #084C52;
+    padding: 0px; 
+    width: 170px;
+    height: 25x; 
+    font-style: oblique;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;	
+	
+} 
+
+.sectablecss{
+       background-color:#FFF0F5;
+}
+
+.incltablecss{
+       background-color:#CCFFCC;
+}
+
+.excl1tablecss{
+       background-color:#FFFF99;
+}
+
+.excl2tablecss{
+       background-color:#FFFFCC;
+}
+
+.excl1css {
+    border-radius: 0px 5px 5px 0px;
+    background: purple;
+    padding: 0px; 
+    width: 400px;
+    height: 25px; 
+    font-style: normal;
+    color:white;
+	font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+    
+} 
+
+.excl2css {
+    border-radius: 0px 5px 5px 0px;
+    background: purple;
+    padding: 0px; 
+    width: 85px;
+    height: 25px; 
+    font-style: oblique;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+} 
+
+.tit {
+    border-radius: 0px 5px 5px 0px;
+	background: DarkCyan;   
+    width: 300px;
+    height: 20px;
+    padding: 0px;
+	color: white;	    
+	font-family: Arial, Helvetica, sans-serif, 微軟正黑體
+	
+}
+
+.indexcss {
+    border-radius: 0px 5px 5px 0px;
+    background: #FFCC00;
+    padding: 0px; 
+    width: 133px;
+    height: 15px; 
+    font-style: oblique;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+} 
+
+.ptabularcss {
+    border-radius: 0px 5px 5px 0px;
+    background: #DB7093;
+    padding: 0px; 
+    width: 185px;
+    height: 15px;  
+    font-style: oblique;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+} 	
+
+.searchcss {
+    border-radius: 0px 5px 5px 0px;
+    background: #9ACD32;
+    padding: 0px; 
+    width: 160px;
+    height: 15px;  
+    font-style: oblique;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+} 
+
